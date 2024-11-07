@@ -1,0 +1,65 @@
+.about {
+  width: 100%;
+  padding: 2.5rem 2rem 2.5rem 4.7rem;
+  background: var(--primaryColor);
+}
+
+.about h2 {
+  color: var(--secondaryColor);
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.about .attributes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.about .individualAttribute {
+  padding: 1rem;
+  max-width: 200px;
+  margin: 0 auto;
+  color: var(--secondayText);
+  text-align: center;
+}
+
+.about .individualAttribute h3 {
+  font-size: 2rem;
+  color: var(--secondaryColor);
+  margin-bottom: 0.6rem;
+}
+
+.about .individualAttribute p {
+  font-size: 0.8rem;
+  color: white;
+}
+
+.about .pentagon {
+  padding: 1rem;
+  max-width: 200px;
+  margin: 0 auto;
+  background-color: var(--grey);
+  /* background: var(--secondayText); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: var(--secondayText);
+  /* clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%); */
+  clip-path: circle(50% at 50% 50%);
+}
+
+@media (max-width: 800px) {
+  .about .attributes {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .about {
+    padding: 2.5rem 1rem;
+  }
+}

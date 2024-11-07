@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primaryColor: black;
+  --secondaryColor: rgba(0, 255, 0, 0.872);
+  --lighterGreen: rgba(150, 246, 150, 0.872);
+  --veryLightGreen: rgba(150, 240, 246, 0.872);
+  --secondaryText: white;
+  --grey: grey;
+}
+
+.body {
+  width: 100vw;
+}

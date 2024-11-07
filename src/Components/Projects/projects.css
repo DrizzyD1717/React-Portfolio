@@ -1,0 +1,41 @@
+.projectsOverall {
+  width: 100%;
+  padding: 3rem 3rem;
+  background: var(--primaryColor);
+  overflow: hidden;
+}
+
+.projectsOverall h2 {
+  margin: 3rem 0 4rem 0;
+  color: var(--secondaryColor);
+  text-align: center;
+  font-size: 2rem;
+}
+
+.projects {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.projects .project {
+  width: 100%;
+}
+
+.projects .project img {
+  width: 100%;
+}
+
+.projects .project .projectDetails {
+  text-align: center;
+  padding: 1rem 0 2rem 0;
+}
+
+/* ---- Mobile Mode ---- */
+@media (max-width: 700px) {
+  .projectsOverall {
+    padding: 3rem 1rem;
+  }
+}

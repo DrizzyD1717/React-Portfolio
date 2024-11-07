@@ -1,0 +1,52 @@
+.skills {
+  width: 60%;
+  margin: 3rem auto;
+}
+
+.skills h3 {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--secondaryColor);
+  margin-bottom: 1.5rem;
+}
+
+.skills .skill {
+  width: 100%;
+  background-color: var(--grey);
+  box-shadow: 0 0 0 4px white;
+  margin-bottom: 1rem;
+}
+
+.skills .skill .skillLevel {
+  width: 80%;
+  height: 100%;
+  background: black;
+}
+
+/* individual skills level */
+
+.skills .css .skillLevel {
+  width: 80%;
+}
+
+.skills .javascript .skillLevel {
+  width: 70%;
+}
+
+.skills .react .skillLevel {
+  width: 70%;
+}
+
+.skills .framerMotion .skillLevel {
+  width: 60%;
+}
+
+/* individual skills level */
+
+.skills .skill .skillLevel .skillName {
+  width: 20%;
+  padding: 0.5rem 0.5rem;
+  background: var(--veryLightGreen);
+  color: var(--secondaryText);
+  font-weight: bold;
+}
